@@ -50,7 +50,7 @@ PROMPT='%F{cyan}%~%f ${vcs_info_msg_0_}
 # ssh時はhostnameを赤で全て表示する
 if [ -n "${REMOTEHOST}${SSH_CONNECTION}" ]; then
 PROMPT='
-%F{white}[%n%f%F{red}@%M%f%F{white}]%f '$PROMOT
+%F{white}[%n%f%F{red}@%M%f%F{white}]%f '$PROMPT
 
 else
 PROMPT='
